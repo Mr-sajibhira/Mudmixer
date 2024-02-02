@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .col_1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+  
+  .col_2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  
+  .col_3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  
+  .col_4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  
+  .col_5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  
+  .col_6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  
+  .col_7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  
+  .col_8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  
+  .col_9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  
+  .col_10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+  
+  .col_11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+  
+  .col_12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  @media (max-width: 767px){
+    .container{
+      max-width: 100%;
+      padding: 0px 20px;
+    }
+    .C_full{
+      padding: 0px ;
+    }
+    .col_1, .col_2, .col_3, .col_4,
+    .col_5, .col_6, .col_7, .col_8,
+    .col_9, .col_10, .col_11, .col_12{
+        width: 100%;
+    }
+    .F_C_R{
+      flex-direction: column-reverse;
+    }
+   
+  }
+
+
+ .title{
+  font-family: Inter;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 600;
+  color: #000000;
+ } 
+
+ .title2{
+  font-family: Inter;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #525252;
+ }
+.text_des{
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+
+.btn{
+display: inline-block;
+text-decoration: none;
+padding: 12px 20px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+color: #000;
+background-color: #FFA217;
+border-radius: 10px;
+border: 2px solid #FFA217;
+transition: all .2s linear;
+}
+
+.btn:hover {
+color: #FFA217;
+background-color: #ffffff;
+}
+@media (max-width: 767px){
+  .btn{
+    border-radius: 50px;
+    padding: 12px 50px;
+  }
+}
+
+
+

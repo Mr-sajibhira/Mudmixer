@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudmixer</title>
+    <!--Style CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- Banner Section CSS Start -->
+    <Style>
+        .bannerBg_image {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            height: auto;
+            z-index: -1;
+        }
+
+        .banner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .banner_left {
+            width: 50%;
+        }
+
+        .banner_right {
+            width: 30%;
+        }
+
+        .warranty_text {
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 400;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .logo_img {
+            width: 236px;
+            height: 109px;
+            margin: 100px 0px 50px 0px;
+        }
+
+        .banner_title {
+            font-family: Inter;
+            font-size: 62px;
+            font-weight: 700;
+            line-height: 75px;
+            color: #FFA217;
+            /* -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #000000; */
+            margin-bottom: 70px;
+        }
+
+        .banner_title span {
+            font-style: italic;
+        }
+
+        .banner_p {
+            color: #ffffff;
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 400;
+        }
+
+        .banner_content li::marker {
+            color: #ffffff;
+            font-size: 32px;
+        }
+
+        .banner_content ul {
+            padding-left: 15px;
+        }
+
+        .cunt_box {
+            width: 150px;
+            margin-left: auto;
+            margin-bottom: 50px;
+        }
+
+        .cunt_text {
+            font-family: Inter;
+            font-size: 53px;
+            font-weight: bold;
+            line-height: 100%;
+            color: #FFA217;
+            margin-bottom: 10px;
+        }
+
+        .cunt_text_p {
+            color: #ffffff;
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+        @media (max-width: 767px) {
+            .bannerBg_image {
+                position: relative;
+            }
+
+            .logo_img {
+                position: absolute;
+                top: 20px;
+                left: 0;
+                margin: 0;
+                width: 160px;
+                height: 70px;
+            }
+
+            .banner_left {
+                background-color: #1E1E1E;
+                width: 100%;
+              
+            }
+            .banner_left_content{
+                max-width: 520px;
+                margin: auto;
+                padding: 50px 20px;
+            }
+
+            .banner_title {
+                font-size: 48px;
+                line-height: 56px;
+                margin-bottom: 50px;
+                text-align: center;
+            }
+
+            .warranty_text {
+                display: none;
+            }
+
+            .banner_p {
+                font-size: 24px;
+            }
+
+            .banner_content ul {
+                padding-left: 25px;
+            }
+
+            .cunt_box {
+                display: none;
+            }
+
+            .cunt_box:nth-child(3) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                margin: 20px 0px;
+            }
+
+            .banner_right {
+                width: 100%;
+                background-color: #333333;
+                padding: 50px 20px;
+            }
+
+            .cunt_text {
+                font-size: 48px;
+                font-weight: 500;
+                margin-right: 20px;
+            }
+
+            .cunt_text_p {
+                font-size: 36px;
+                font-weight: bold;
+            }
+        }
+    </Style>
+    <!-- Banner Section CSS End -->
+
+    <!-- Banner Section HTML Start -->
+    <section style="position: relative;">
+        <!-- Banner Bg Image -->
+        <img class="bannerBg_image" src="images/banner.png" alt="banner">
+
+
+
+        <div class="container C_full">
+            <img class="logo_img" src="images/logo.png" alt="">
+            <div class="banner">
+                <div class="banner_left">
+                    <div class="banner_left_content">
+                    <h3 class="warranty_text"> 1 YEAR WARRANTY</h3>
+                    <h2 class="banner_title">Save Money and Time <span>60% More Efficiency</span></h2>
+
+                    <div class="banner_content">
+                        <p class="banner_p">Successful Contractors Know: </p>
+                        <ul>
+                            <li>
+                                <p class="banner_p"> Rapid-Mixing Saves Time</p>
+                            </li>
+                            <li>
+                                <p class="banner_p">Compact Size Makes Maneuvering Easy</p>
+                            </li>
+                            <li>
+                                <p class="banner_p"> Superior Mix Quality Saves Headaches</p>
+                            </li>
+                        </ul>
+                    </div><!-- banner_content -->
+                </div>
+                </div> <!-- banner_left -->
+
+                <div class="banner_right">
+                    <div class="cunt_box">
+                        <h4 class="cunt_text">10K+</h4>
+                        <p class="cunt_text_p">Units Solid</p>
+                    </div>
+                    <div class="cunt_box">
+                        <h4 class="cunt_text">4.9+</h4>
+                        <p class="cunt_text_p">Average Reviews</p>
+                    </div>
+                    <div class="cunt_box">
+                        <h4 class="cunt_text">60%</h4>
+                        <p class="cunt_text_p">Reduction in Mixing Time</p>
+                    </div>
+                </div><!-- banner_right -->
+
+            </div><!-- banner -->
+        </div><!-- container -->
+    </section>
+    <!-- Banner Section HTML End -->
+    <!----------------------------------------------------------------------------------------------------->
+
+
+
+    <!-- Text Vide0 Section CSS Start -->
+    <style>
+        .text_div {
+            padding: 30px;
+        }
+
+        .test_video {
+            padding: 20px 20px 30px;
+        }
+
+        .text_title {
+            font-family: Inter;
+            font-size: 64px;
+            font-weight: 600;
+            line-height: 77px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #FFA217;
+        }
+
+        .text_title2 {
+            font-family: Inter;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+
+
+        .video_div {
+            background-color: #454545;
+            border-radius: 10px;
+            padding: 30px;
+        }
+
+        .video_div iframe {
+            border: none;
+            border-radius: 10px;
+        }
+        .text_div .text_des{
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 50px;
+           
+        }
+
+        @media (max-width: 767px) {
+            .test_video .row {
+                flex-direction: column-reverse;
+            }
+
+            .test_video {
+                padding: 50px 0px;
+            }
+
+            .text_div {
+                padding: 60px 0px;
+                max-width: 500px;
+                margin: auto;
+            }
+
+            .text_title {
+                font-size: 48px;
+                line-height: 54px;
+            }
+
+            .text_title2 {
+                font-size: 30px;
+            }
+
+
+        }
+    </style>
+    <!-- Text Vide0 Section CSS End -->
+    <!-- Text Vide0 Section HTML Start -->
+    <section style="background-color: #252525;">
+        <div class="container">
+            <div class="test_video">
+                <div class="row">
+                    <div class="col_5">
+                        <div class="text_div">
+                            <h2 class="text_title">Pays for Itself in 2 Jobs</h2>
+                            <h3 class="text_title2">Optimize Your Workflows</h3>
+                            <p class="text_des">The MudMixer Advantage for Small Contractors
+                                Perfect for small to medium-sized projects. Reduces the need for additional labor.
+                                User-friendly design for quick adaptation.</p>
+                            <p class="text_des" style="font-weight: 700; margin: 0;">Save manpower hours and dollars today.</p>
+                        </div>
+                    </div><!-- col_5 -->
+                    <div class="col_7">
+                        <div class="video_div">
+                            <iframe mute  width="100%" height="462" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                            </iframe>
+                        </div>
+                    </div><!-- col_7 -->
+                </div><!-- row -->
+            </div><!-- test_video -->
+        </div><!-- container -->
+    </section>
+    <!-- Text Vide0 Section HTML End -->
+
+
+    <!-- Customer Section CSS Start -->
+    <Style>
+        .customer_box {
+            border: 1px solid #1E1E1E;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 50px 0px 30px;
+        }
+
+        .cus_text_box {
+            padding-left: 20px;
+        }
+
+        .cus_title {
+            font-family: Inter;
+            font-size: 30px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: 38px;
+            color: #0a305e;
+            margin-bottom: 10px;
+        }
+
+        .cus_des {
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #000;
+            margin-bottom: 20px;
+        }
+
+        .cus_des span {
+            color: #797373;
+            font-weight: 300;
+        }
+
+        .cus_btn_div {
+            text-align: center;
+        }
+
+        @media (max-width: 767px) {
+            .cus_image_box {
+                text-align: center;
+            }
+
+            .cus_img {
+                max-width: 350px;
+                margin: auto;
+            }
+
+            .customer_box {
+                border: none;
+                padding: 10px;
+            }
+
+            .cus_text_box {
+                padding: 0px;
+            }
+            .cus_btn_div{
+                margin-top: 50px;
+            }
+
+
+        }
+    </Style>
+    <!-- Customer Section CSS End -->
+    <!-- Customer Section HTML Start -->
+    <section>
+        <div class="container">
+            <div class="customer_box">
+                <div class="row">
+                    <div class="col_2">
+                        <div class="cus_image_box">
+                            <img class="cus_img" src="images/customer.png" alt="customer">
+                        </div>
+                    </div>
+                    <div class="col_10">
+                        <div class="cus_text_box">
+                            <h1 class="cus_title">The Best Business partner</h1>
+                            <p class="cus_des">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                            <p class="cus_des">Richad l. <span>- Our Customer-</span></p>
+                            <!-- button -->
+                            <div class="cus_btn_div">
+                                <a class="btn" href="#">Get Your Today</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- row -->
+            </div><!-- customer_box -->
+        </div><!-- container -->
+    </section>
+    <!-- Customer Section HTML End -->
+
+
+
+
+
+    <!-- text Image slider Section CSS Start -->
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .test_slider_content {
+            max-width: 330px;
+            margin: auto;
+        }
+        .BG_color {
+            position: relative;
+            z-index: 10;
+            background-color: #ffffff;
+        }
+        .TS_slider {
+            position: relative;
+            height: 100%;
+        }
+        .TS_img_slider {
+            overflow: visible;
+        }
+        .test_slider_content{
+            text-align: center;
+        }
+        .test_slider_content .title{
+            margin-bottom: 50px;
+        }
+        .TS_content_box .title2{
+            margin-bottom: 30px;
+        }
+
+
+ @media (max-width: 767px) {
+
+            .TS_content_box {
+                display: none;
+            }
+
+            .test_slider_content {
+                width: 555px;
+            }
+
+        }
+    </style>
+    <!-- text Image slider Section CSS End -->
+
+    <!-- text Image slider Section HTML Start -->
+    <section style="overflow: hidden; padding: 50px 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col_4 BG_color">
+                    <div class="test_slider_content">
+                        <h2 class="title">Cut Your Workload in Half</h2>
+                        <div class="TS_content_box">
+                            <h2 class="title2">Patio Extension</h2>
+                            <h2 class="title2">Retaining Walls</h2>
+                            <h2 class="title2">Patio Extension</h2>
+                        </div>
+                    </div>
+                </div><!-- col_4 -->
+                <div class="col_8">
+                    <div class="TS_slider">
+                        <!-- Swiper -->
+                        <div class="swiper TS_img_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/Rectangle 16.png" alt="Rectangle 16"></div>
+                                <div class="swiper-slide"><img src="images/Rectangle 16.png" alt="Rectangle 16"></div>
+                                <div class="swiper-slide"><img src="images/Rectangle 16.png" alt="Rectangle 16"></div>
+                                <div class="swiper-slide"><img src="images/Rectangle 16.png" alt="Rectangle 16"></div>
+                                <div class="swiper-slide"><img src="images/Rectangle 16.png" alt="Rectangle 16"></div>
+                                <div class="swiper-slide"><img src="images/Rectangle 16.png" alt="Rectangle 16"></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div><!-- col_8 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+    <!-- text Image slider Section HTML End -->
+
+    <!-------------------------------------------------------------------------------------------------->
+
+    <!-- product Section HTML Start-->
+    <Style>
+      .produrt_conten{
+       
+      }
+      .produrt_conten .title{
+        margin-bottom: 60px;
+      }
+      .list_item{
+        margin-bottom: 20px;
+      }
+      .list_item .text_des{
+        font-weight: 700;
+        color: #7d7d7d;
+      }
+      .product_btn{
+        margin-top: 50px;
+      }
+      .product_img{
+        border-radius: 10px;
+      }
+      .review_content{
+        text-align: center;
+        padding-top: 50px;
+      }
+      .review_content .title2{
+        font-size: 24px;
+      }
+      .review_content img{
+        width: 310px;
+      }
+      .product_award{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+      }
+      .product_award img{
+        max-width: 620px;
+      }
+
+      @media (max-width: 767px){
+        .review_content{
+            padding-bottom: 50px;
+        }
+        .product_award{
+            display: none;
+        }
+        .produrt_conten{
+            text-align: center;
+        }
+      }
+
+    </Style>
+    <!-- product Section HTML End-->
+    <!-- product Section HTML Start-->
+    <Section style="padding: 50px 0px;">
+        <div class="container">
+            <div class="row F_C_R">
+                <div class="col_6">
+                    <div class="produrt_conten">
+                        <h2 class="title">Get the Job Done Faster</h2>
+                        <div class="product_list_box">
+                            <div class="list_item">
+                                <h3 class="title2">14-Guage Hardened Steel</h3>
+                                <p class="text_des">Can handle any worksite, no matter how tough</p>
+                            </div>
+                            <div class="list_item">
+                                <h3 class="title2">Water-Sealed Motor</h3>
+                                <p class="text_des">For consistent pours to save time</p>
+                            </div>
+                            <div class="list_item">
+                                <h3 class="title2">Marathon Tires</h3>
+                                <p class="text_des">Guaranteed no stops for flat tires</p>
+                            </div>
+                            <div class="list_item">
+                                <h3 class="title2">High-Powered Hose</h3>
+                                <p class="text_des">3-5 minute clean-ups prevent delays</p>
+                            </div>
+                            <div class="list_item">
+                                <h3 class="title2">Electric Drivetrain</h3>
+                                <p class="text_des">Up to 45 80lb bags in an hour</p>
+                            </div>
+                            <div class="list_item">
+                                <h3 class="title2">360* Pivot Stream</h3>
+                                <p class="text_des">Navigates to tight spots without stops</p>
+                            </div>
+
+                        </div>
+
+                         <!--Button -->
+                         <div class="product_btn">
+                             <a class="btn" href="#">Buy MudMixer Now</a>
+                         </div>
+
+                    </div>
+                </div>
+                <div class="col_6">
+                    <!-- Product Image -->
+                     <img class="product_img" src="images/product.png" alt="">
+
+                     <div class="review_content">
+                         <h3 class="title2">1 Year Warranty</h3>
+                         <img src="images/review.png" alt="">
+                     </div>
+                </div>
+            </div><!-- Row -->
+            
+            <div class="product_award">
+                <img src="images/Rectangle 49.png" alt="">
+                <img src="images/Rectangle 50.png" alt="">
+            </div>
+
+        </div><!-- container -->
+    </Section>
+    <!-- product Section HTML End-->
+
+
+    <!-------------------------------------------------------------------------------------------------->
+
+    <!--  Image box Grid Section CSS Start -->
+
+    <Style>
+        .img_grid_section {
+            background-color: #d9d9d9;
+            padding: 50px 0px;
+        }
+
+        .grid {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: auto auto;
+        }
+
+        .grid_box {
+            background-color: #454545;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .grid_content {
+            width: 285px;
+            margin: 20px auto 30px;
+            text-align: center;
+        }
+        .grid_box .text_des{
+            color: #ffffff;
+        }
+
+        .grid_box .title2 {
+            color: #FFA217;
+        }
+
+        .img_grid_content {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+
+        .grid_btn_div {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .grid_slider {
+            position: relative;
+            height: 100%;
+            display: none;
+        }
+        .swiper-slide{
+            background-color: transparent;
+        }
+
+        @media (max-width: 767px) {
+
+            .grid {
+                display: grid;
+                gap: 30px;
+                grid-template-columns: auto;
+                padding: 0px 20px;
+            }
+
+            .grid_m {
+                display: none;
+            }
+
+            .grid_slider {
+                display: block;
+            }
+            .img_grid_content .title{
+                font-size: 32px;
+                line-height: 40px;
+            }
+        }
+    </Style>
+
+
+    <!--  Image box Grid Section CSS End -->
+
+    <!--  Image box Grid Section HTML Start -->
+    <Section>
+        <div class="img_grid_section">
+            <div class="img_grid_content">
+                <h1 class="title">ONE MUDMIXER.</h1>
+                <h1 class="title" style="color: #FFA217;">THOUSANDS OF USES.</h1>
+            </div>
+
+            <div class="container">
+                <div class="grid grid_m">
+                    <!-- Loop -->
+                    <div class="grid_box">
+                        <img src="images/gridimg.png" alt="">
+                        <div class="grid_content">
+                            <h3 class="title2">Mixing Efficiency</h3>
+                            <h3 class="text_des">MudMixer outperforms traditional mixers</h3>
+                        </div>
+                    </div><!-- grid_box -->
+                    <!-- Loop -->
+
+                    <!-- Loop -->
+                    <div class="grid_box">
+                        <img src="images/gridimg.png" alt="">
+                        <div class="grid_content">
+                            <h3 class="title2">Quality of Mix</h3>
+                            <h3 class="text_des">More consistent with MudMixer</h3>
+                        </div>
+                    </div><!-- grid_box -->
+                    <!-- Loop -->
+
+                    <!-- Loop -->
+                    <div class="grid_box">
+                        <img src="images/gridimg.png" alt="">
+                        <div class="grid_content">
+                            <h3 class="title2">Ease of Transport</h3>
+                            <h3 class="text_des">MudMixer is more mobile</h3>
+                        </div>
+                    </div><!-- grid_box -->
+                    <!-- Loop -->
+
+                    <!-- Loop -->
+                    <div class="grid_box">
+                        <img src="images/gridimg.png" alt="">
+                        <div class="grid_content">
+                            <h3 class="title2">Durability</h3>
+                            <h3 class="text_des">Built to last, even in tough conditions</h3>
+                        </div>
+                    </div><!-- grid_box -->
+                    <!-- Loop -->
+
+
+                </div><!-- grid -->
+
+
+                <!--Grid slider Section-->
+
+                <div class="grid_slider">
+                    <div class="swiper gridSwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="grid_box">
+                                    <img src="images/gridimg.png" alt="">
+                                    <div class="grid_content">
+                                        <h3 class="title2">Durability</h3>
+                                        <h3 class="text_des">Built to last, even in tough conditions</h3>
+                                    </div>
+                                </div><!-- grid_box -->
+                            </div><!-- swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <div class="grid_box">
+                                    <img src="images/gridimg.png" alt="">
+                                    <div class="grid_content">
+                                        <h3 class="title2">Durability</h3>
+                                        <h3 class="text_des">Built to last, even in tough conditions</h3>
+                                    </div>
+                                </div><!-- grid_box -->
+                            </div><!-- swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <div class="grid_box">
+                                    <img src="images/gridimg.png" alt="">
+                                    <div class="grid_content">
+                                        <h3 class="title2">Durability</h3>
+                                        <h3 class="text_des">Built to last, even in tough conditions</h3>
+                                    </div>
+                                </div><!-- grid_box -->
+                            </div><!-- swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <div class="grid_box">
+                                    <img src="images/gridimg.png" alt="">
+                                    <div class="grid_content">
+                                        <h3 class="title2">Durability</h3>
+                                        <h3 class="text_des">Built to last, even in tough conditions</h3>
+                                    </div>
+                                </div><!-- grid_box -->
+                            </div><!-- swiper-slide -->
+
+                        </div><!-- swiper-wrapper -->
+                    </div><!--swiper gridSwiper -->
+
+                </div><!-- grid_slider -->
+
+            </div><!-- container -->
+
+            <!-- button -->
+            <div class="grid_btn_div">
+                <a class="btn" href="#">Buy Mudmixer Now</a>
+            </div>
+
+        </div><!-- img_grid_section -->
+    </Section>
+    <!--  Image box Grid Section HTML End -->
+<!---------------------------------------------------------------------------------->
+
+
+<!--  Text+Image  Grid Section  Start -->
+
+<Style>
+    .text_img_content{
+        padding-right: 20%;
+    }
+    .text_img_content .title{
+        margin-bottom: 30px;
+    }
+    .text_img_content .text_des{
+        margin-bottom: 30px;
+    }
+    .list_group_item{
+        display: flex;
+    }
+    .list_group_item .title2{
+        color: #000;
+        font-weight: 700;
+        margin-right: 20px;
+    }
+    .list_group_item .text_des span{
+        color: #FFA217;
+    }
+    .p_left{
+        padding: 0px 0px 0px 20%;
+       }
+    @media (max-width:767px){
+       .text_img_content{
+        padding: 50px 0px 0px;
+       }
+       .p_left{
+        padding: 0px;
+       }
+    }
+
+</Style>
+
+
+
+<!--  Text+Image  Grid Section  End -->
+
+
+<section style="background-color: #f6f6f6; padding: 50px 0px;">
+    <div class="container">
+        <div class="row">
+
+            <div class="col_6">
+                <img src="images/product.png" alt="">
+            </div>
+
+            <div class="col_6">
+               <div class="text_img_content p_left">
+                <h2 class="title"> ENGINEER- TESTED, FIELD- APPROVED.</h2>
+                <p class="text_des">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+                <div class="list_group">
+                    <div class="list_group_item">
+                       <h3 class="title2">A</h3>
+                       <p class="text_des"><span>It is a long established</span>It is a long established fact that a reader will be distracted by the readable content </p>
+                    </div>
+                    <div class="list_group_item">
+                        <h3 class="title2">B</h3>
+                        <p class="text_des"><span>It is a long established</span>It is a long established fact that a reader will be distracted by the readable content </p>
+                     </div>
+                     <div class="list_group_item">
+                        <h3 class="title2">C</h3>
+                        <p class="text_des"><span>It is a long established</span>It is a long established fact that a reader will be distracted by the readable content </p>
+                     </div>
+                     <div class="list_group_item">
+                        <h3 class="title2">D</h3>
+                        <p class="text_des"><span>It is a long established</span>It is a long established fact that a reader will be distracted by the readable content </p>
+                     </div>
+                </div>
+               </div>
+            </div>
+
+        </div><!-- Row -->
+    </div><!-- container -->
+</section>
+
+
+<!--  Text+Image  Grid Section  End -->
+
+
+<section style="background-color: #f6f6f6; padding: 50px 0px;">
+    <div class="container">
+        <div class="row F_C_R">
+            <div class="col_6">
+               <div class="text_img_content">
+                <h2 class="title"> A VERY, VERY SOLID INVESTMENT</h2>
+                <p class="text_des">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+                <div class="list_group">
+                    <div class="list_group">
+                        <div class="list_group_item">
+                           <h3 class="title2">E</h3>
+                           <p class="text_des"><span>It is a long established</span>It is a long established fact that a reader will be distracted by the readable content </p>
+                        </div>
+                        <div class="list_group_item">
+                            <h3 class="title2">F</h3>
+                            <p class="text_des"><span>It is a long established</span>It is a long established fact that a reader will be distracted by the readable content </p>
+                         </div>
+                         <div class="list_group_item">
+                            <h3 class="title2">G</h3>
+                            <p class="text_des"><span>It is a long established</span>It is a long established fact that a reader will be distracted by the readable content </p>
+                         </div>
+                         <div class="list_group_item">
+                            <h3 class="title2">H</h3>
+                            <p class="text_des"><span>It is a long established</span>It is a long established fact that a reader will be distracted by the readable content </p>
+                         </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+            <div class="col_6">
+                <img src="images/product.png" alt="">
+            </div>
+        </div><!-- Row -->
+    </div><!-- container -->
+</section>
+
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".TS_img_slider", {
+
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 20
+                },
+                800: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+
+            }
+
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".gridSwiper", {
+
+            spaceBetween: 30,
+            slidesPerView: 1.2,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+        });
+    </script>
+
+
+</body>
+
+</html>
